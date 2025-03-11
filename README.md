@@ -1,1 +1,3 @@
-# CloneSpy
+# CloneSpy – Duplicate Download Detection System
+
+## Developed CloneSpy, a system that detects and prevents duplicate file downloads to optimize storage and bandwidth usage. Implemented a Flask-based backend with API endpoints for duplicate checks and file path storage, utilizing SHA-256 hashing, ETags, and binary search for efficient file comparison. Designed a Tkinter-based GUI for user interactions, allowing users to search, detect, and delete duplicate files across selected drives. The system enhances file organization for students, professors, and researchers, reducing redundant downloads and improving data management.
