@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Download Duplicate Checker",
+  "version": "1.0",
+  "description": "Detect duplicate files during download",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "downloads",
+    "notifications",
+    "declarativeNetRequest"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:5000/*"
+  ]
+}
